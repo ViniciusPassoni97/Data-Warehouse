@@ -6,9 +6,17 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
   }
   body{
+    height:1610vh;
     width:70%;
     margin-left:auto;
     margin-right:auto;
+  }
+  @media(max-width: 900px) {
+    body{
+      width:97%;
+      margin-left:auto;
+      margin-right:auto;
+    }
   }
   * {
     margin: 0;

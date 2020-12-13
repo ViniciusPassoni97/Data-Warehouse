@@ -28,6 +28,7 @@ const HeaderContainerDiv = styled.div`
     .container-button-request{
         padding:1rem;
         cursor:pointer;
+        transition:0.7s;
     }
     .container-button-request:hover{
         background-color:#fffff2;
@@ -40,6 +41,7 @@ const HeaderContainerDiv = styled.div`
         border-radius:2rem;
         background-color:#ffffff;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        transition:0.7s;
     }
     .container-button-img:hover{
         background-color:#fffff2;
