@@ -25,6 +25,11 @@ const HeaderContainerDiv = styled.div`
         display:flex;
         margin-left:4rem;
     }
+    @media(max-width:600px){
+        .container-links{
+            margin-left:0rem;
+        }
+    }
     .container-button-request{
         padding:1rem;
         cursor:pointer;

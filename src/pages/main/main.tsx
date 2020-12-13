@@ -4,6 +4,7 @@ import React from 'react';
  import Header from '../../components/Header/index';
  import Learn from '../../components/Learn/index';
  import Banck from '../../components/Banck/index';
+ import Features from '../../components/Features/index';
 
 
 const main: React.FC = () => {
@@ -13,6 +14,7 @@ const main: React.FC = () => {
             <Header />
             <Learn />
             <Banck />
+            <Features />
         </Main >
     </>
   );
