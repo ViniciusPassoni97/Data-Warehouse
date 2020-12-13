@@ -39,11 +39,11 @@ const Header: React.FC = () => {
                 </div>
               </div>
               <div className='container-button'>
-                <motion.p
+                <motion.button
                   className='container-button-img'
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
-                >Request Demo <AiOutlineArrowRight className='container-button-img-logo'/></motion.p>
+                >Request Demo <AiOutlineArrowRight className='container-button-img-logo'/></motion.button>
               </div>
         </HeaderDiv >
       </>

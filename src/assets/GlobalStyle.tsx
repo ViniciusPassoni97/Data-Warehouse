@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
   }
   button {
     cursor: pointer;
+    border:none;
   }
   h1,p,span{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif

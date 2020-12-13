@@ -37,9 +37,8 @@ const HeaderContainerDiv = styled.div`
         padding:1rem;
         display:flex;
         align-items:center;
-        cursor:pointer;
-
         border-radius:2rem;
+        background-color:#ffffff;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     }
     .container-button-img:hover{
