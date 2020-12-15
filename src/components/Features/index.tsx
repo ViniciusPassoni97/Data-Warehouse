@@ -14,7 +14,7 @@ const Features: React.FC = () => {
           </div>
           <div className='features-div-cards'>
             <div className='features-div-cards-container'>
-                <Cards background='' info='' title='' url='' key='' />
+                <Cards backgroundUrl='#a04c4c' info='' title='' url='' key='' />
             </div>
             <div className='features-div-cards-container'>
 
