@@ -1,6 +1,32 @@
-import styled from 'styled-components';
+import React from 'react';
 
-const CardsFeatures = styled.div`
-`;
+import {CardsFeatures}  from './style';
 
-export default CardsFeatures;
+type propsCard = {
+  url:string;
+  title:string;
+  background:string;
+  info:string;
+}
+
+const Cards: React.FC<propsCard>= ({background,info,title,url}:propsCard) => {
+  return (
+      <>  
+      <CardsFeatures>
+          <div className="div">
+            {url}
+            {background}
+            {info}
+            {url}
+            {title}
+          </div>
+          <div className="div">
+            
+          </div>
+      </CardsFeatures>
+      </>
+  );
+}
+
+export default Cards;
+
