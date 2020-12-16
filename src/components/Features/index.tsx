@@ -14,10 +14,12 @@ const Features: React.FC = () => {
           </div>
           <div className='features-div-cards'>
             <div className='features-div-cards-container'>
-                <Cards backgroundUrl='#a04c4c' info='' title='' url='' key='' />
+                <Cards backgroundUrl='#a04c4c' info='Meu titulo info' title='meu titulo' url='url'/>
+                <Cards backgroundUrl='#a04c4c' info='Meu titulo info' title='meu titulo' url='url'/>
             </div>
             <div className='features-div-cards-container'>
-
+                  <Cards backgroundUrl='#a04c4c' info='Meu titulo info' title='meu titulo' url='url'/>
+                  <Cards backgroundUrl='#a04c4c' info='Meu titulo info' title='meu titulo' url='url'/>
             </div>
 
           </div>

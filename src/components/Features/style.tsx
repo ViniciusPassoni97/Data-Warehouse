@@ -12,6 +12,12 @@ const FeaturesDiv = styled.div`
         margin-top:3rem;
         font-size:17px;
     }
+    .features-div-cards-container{
+        display:flex;
+        margin:1rem;
+    }
+    .features-div-cards{
+    }
 `;
 
 export default FeaturesDiv;
