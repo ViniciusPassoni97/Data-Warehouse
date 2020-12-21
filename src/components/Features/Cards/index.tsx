@@ -14,13 +14,12 @@ const Cards: React.FC<propsCard>= ({backgroundUrl,info,title,url}:propsCard) => 
       <>  
       <CardsFeatures style={{background:backgroundUrl}}>
           <div className="card">
-            <div className="card-image">
                 <img className='card-image-img' src={url} alt='img'></img>
-            </div>
           </div>
           <div className="card-info">
                 <p>{info}</p>
                 <p>{title}</p>
+                <button>Botao</button>
           </div>
       </CardsFeatures>
       </>
