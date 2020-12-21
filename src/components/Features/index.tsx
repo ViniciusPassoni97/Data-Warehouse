@@ -19,7 +19,7 @@ const Features: React.FC = () => {
                 which is useful for making it easier to find data effectively saving time.' url={DataCard}/>
                 <Cards backgroundUrl='#a04c4c' info='Meu titulo info' title='meu titulo' url='url'/>
             </div>
-            <div className='features-div-cards-container'>
+            <div className='features-div-cards-container bottom'>
                   <Cards backgroundUrl='#a04c4c' info='Meu titulo info' title='meu titulo' url='url'/>
                   <Cards backgroundUrl='#a04c4c' info='Meu titulo info' title='meu titulo' url='url'/>
             </div>
