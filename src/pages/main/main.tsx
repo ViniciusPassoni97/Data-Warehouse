@@ -5,7 +5,7 @@ import React from 'react';
  import Learn from '../../components/Learn/index';
  import Banck from '../../components/Banck/index';
  import Features from '../../components/Features/index';
-
+import Scrow from '../../components/Scrow/index';
 
 const main: React.FC = () => {
   return (
@@ -15,6 +15,7 @@ const main: React.FC = () => {
             <Learn />
             <Banck />
             <Features />
+            <Scrow />
         </Main >
     </>
   );
