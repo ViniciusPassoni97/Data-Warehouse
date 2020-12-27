@@ -16,5 +16,22 @@ export const ScrowDivTitle = styled.p`
     color:#ffffff;
 `;
 export const ScrowDivTitleCard = styled.div`
+    margin-top:2rem;    
+    text-align: center;
+    overflow: hidden;
     display:flex;
+    .ScrowDivTitleCardDiv{
+        padding:1rem;
+    }
 `;
+export const ScrowDivTitleLink = styled.div`
+    display:flex;
+    .slide-1{
+        margin-left:0.3rem;
+        color:#ffffff;
+        transition:0.5s;
+    }
+    .slide-1:hover{
+        color:#F063B8;
+    }
+`
