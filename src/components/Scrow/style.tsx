@@ -20,6 +20,10 @@ export const ScrowDivTitleCard = styled.div`
     text-align: center;
     overflow: hidden;
     display:flex;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
     .ScrowDivTitleCardDiv{
         padding:1rem;
     }

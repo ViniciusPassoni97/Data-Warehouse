@@ -1,4 +1,5 @@
 import React from 'react';
+import {motion} from 'framer-motion';
 
 import { PeopleScrowDiv, PeopleScrowDivImg, PeopleScrowDivInfo } from './style';
 
@@ -11,9 +12,13 @@ type pessoaScrow = {
 
 const PeopleScrow: React.FC<pessoaScrow> = ({email,name,text,urlImage }:pessoaScrow) => {
   return (
+    <motion.div
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+    >
       <PeopleScrowDiv>
           <PeopleScrowDivImg>
-            <img src={urlImage} alt='PeopleImage'/>
+            <img className='PeopleScrowDivImgUrl' src={urlImage} alt='PeopleImage'/>
           </PeopleScrowDivImg>
           <PeopleScrowDivInfo>
             <p className='PeopleScrowDivInfoName'>{name}</p>
@@ -21,6 +26,7 @@ const PeopleScrow: React.FC<pessoaScrow> = ({email,name,text,urlImage }:pessoaSc
             <p className='PeopleScrowDivInfoText'>{text}</p>
           </PeopleScrowDivInfo>
       </PeopleScrowDiv>
+    </motion.div>
   );
 }
 

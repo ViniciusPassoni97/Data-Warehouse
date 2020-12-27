@@ -7,8 +7,7 @@ import PeopleImage from '../../assets/icons/PeopleImage.png';
 
 const Scrow: React.FC = () => {
   function ClickSlider1 () {
-    var scrow = document.querySelector(".ScrowDivTitleCard");
-    console.log(scrow?.animate);
+    var scrow = document.querySelectorAll(".ScrowDivTitleCard");  
   }
   return (
       <ScrowDiv>
