@@ -18,7 +18,7 @@ const Features: React.FC = () => {
           </div>
           <div className='features-div-cards'>
             <div className='features-div-cards-container'>
-                <Cards backgroundUrl='#d1f3ee' info='Search Data' title='Don’t worry if your data is very large, the Data Warehoue provides a search engine, 
+                <Cards  backgroundUrl='#d1f3ee' info='Search Data' title='Don’t worry if your data is very large, the Data Warehoue provides a search engine, 
                 which is useful for making it easier to find data effectively saving time.' url={DataCard}/>
                 <Cards backgroundUrl='#c7b7dd' info='24 Hours Access' title='Access is given 24 hours a full morning to night and meet again in the 
                 morning, giving you comfort when you need data when urgent.' url={DataCard2}/>

@@ -21,6 +21,11 @@ const FeaturesDiv = styled.div`
     }
     .features-div-cards{
     }
+    @media(max-width:1000px){
+        .features-div-cards-container{
+            display:block;
+        }
+    }
 `;
 
 export default FeaturesDiv;
