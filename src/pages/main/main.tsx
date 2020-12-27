@@ -6,6 +6,7 @@ import React from 'react';
  import Banck from '../../components/Banck/index';
  import Features from '../../components/Features/index';
 import Scrow from '../../components/Scrow/index';
+import Footer from '../../components/Footer/index';
 
 const main: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const main: React.FC = () => {
             <Banck />
             <Features />
             <Scrow />
+            <Footer />
         </Main >
     </>
   );

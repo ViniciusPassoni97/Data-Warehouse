@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
   }
   body{
-    height:610vh;
+    height:510vh;
     width:70%;
     margin-left:auto;
     margin-right:auto;
