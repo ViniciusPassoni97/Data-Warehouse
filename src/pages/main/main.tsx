@@ -7,6 +7,7 @@ import React from 'react';
  import Features from '../../components/Features/index';
 import Scrow from '../../components/Scrow/index';
 import Footer from '../../components/Footer/index';
+import Bottom from '../../components/Bottom/index';
 
 const main: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const main: React.FC = () => {
             <Features />
             <Scrow />
             <Footer />
+            <Bottom />
         </Main >
     </>
   );
