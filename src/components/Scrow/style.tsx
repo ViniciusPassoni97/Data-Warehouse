@@ -19,7 +19,6 @@ export const ScrowDivTitleCard = styled.div`
     margin-top:2rem;    
     text-align: center;
     overflow: hidden;
-    display:flex;
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -27,13 +26,17 @@ export const ScrowDivTitleCard = styled.div`
     .ScrowDivTitleCardDiv{
         padding:1rem;
     }
+    .ScrowDivTitleCardMotion{
+        display:flex;
+    }
 `;
 export const ScrowDivTitleLink = styled.div`
     display:flex;
     .slide-1{
-        margin-left:0.3rem;
-        color:#ffffff;
-        transition:0.5s;
+        margin-left:1rem;
+    }
+    .slide-1:checked .ScrowDivTitleCardDiv{
+        margin-left:-20%;
     }
     .slide-1:hover{
         color:#F063B8;
