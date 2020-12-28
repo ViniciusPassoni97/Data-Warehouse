@@ -25,6 +25,7 @@ const Cards: React.FC<propsCard>= ({backgroundUrl,info,title,url}:propsCard) => 
                 <div className='card-info-button'>
                   <motion.button
                     className='card-info-button-img'
+                    style={{background:backgroundUrl}}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                   >Learn More<AiOutlineArrowRight className='card-info-button-img-logo'/></motion.button>

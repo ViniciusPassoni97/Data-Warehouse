@@ -20,6 +20,8 @@ const Features: React.FC = () => {
             <div className='features-div-cards-container'>
                 <Cards  backgroundUrl='#d1f3ee' info='Search Data' title='Don’t worry if your data is very large, the Data Warehoue provides a search engine, 
                 which is useful for making it easier to find data effectively saving time.' url={DataCard}/>
+            </div>
+            <div className='features-div-cards-container'>
                 <Cards backgroundUrl='#c7b7dd' info='24 Hours Access' title='Access is given 24 hours a full morning to night and meet again in the 
                 morning, giving you comfort when you need data when urgent.' url={DataCard2}/>
             </div>
@@ -27,9 +29,11 @@ const Features: React.FC = () => {
                   <br />
                   <Cards backgroundUrl='#e0b9c8' info='Print Out' title='Print out service gives you convenience if someday you need print data,
                    just edit it all and just print it.' url={DataCard3}/>
+             </div>
+             <div className='features-div-cards-container'>
                   <Cards backgroundUrl='#cbdcec' info='Security Code' title='Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured
                    with a code or password that you created, so only you can open the file.' url={DataCard4}/>
-            </div>
+              </div>
           </div>
         </FeaturesDiv>
       </>
