@@ -42,3 +42,85 @@ export const FooterDivFree = styled.div`
         }
     }
 `;
+export const FooterDivData = styled.div`
+    margin-top:6rem;
+    display:flex;
+    .dataWarehouseTitleInfo{
+        display:flex;
+        align-items:center;
+        .dataWarehouseTitleLogo{
+            height:20px;
+            width:15px;
+        }
+        .dataWarehouseTitleLogo1{
+            margin-left:0.3rem;
+            height:30px;
+            width:15px;
+        }
+        .dataWarehouseTitleText{
+            font-size:20px;
+            margin-left:1rem;
+            font-weight:bold;
+        }
+    }
+    .dataWarehouseTitle{
+        .dataWarehouseTitleTexts{
+            margin-top:4rem;
+            .dataWarehouseTitleTexts1{
+                font-size:20px;
+            }
+            .dataWarehouseTitleTexts2{
+                margin-top:2rem;
+                color: #c5c3c3;
+                font-size:17px;
+            }
+        }
+    }
+    .about{
+        margin-left:5rem;
+        p{  
+            padding:0.6rem;
+            font-size:20px;
+        }
+        .aboutTitle{
+            font-size:23px;
+            font-weight:bold;
+            
+        }
+        .aboutProfile{
+            margin-top:3rem;
+        }
+    }
+    .help{
+        margin-left:3rem;
+        p{  
+            padding:0.6rem;
+            font-size:20px;
+        }
+        .helpSupport{
+            font-size:23px;
+            font-weight:bold;
+        }
+        .helpSign{
+            margin-top:3rem;
+        }
+    }
+    .socialMediaText{
+        margin-top:1rem;
+        margin-left:5rem;
+    }
+    .socialMediaTextTitle {
+        font-size:23px;
+        font-weight:bold;
+    }
+    .socialMediaIconsImage{
+        margin-left:5rem;
+        display:flex;
+        margin-top:3rem;
+    }
+    .socialMediaIconsImageImg{
+        padding:0.6rem;
+        width:3rem;
+        height:3rem;
+    }
+`
