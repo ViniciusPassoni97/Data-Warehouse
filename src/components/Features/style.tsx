@@ -15,6 +15,13 @@ const FeaturesDiv = styled.div`
         margin-top:3rem;
         font-size:17px;
     }
+    .features-div-cards-container:nth-child(2){
+        margin-left:5rem;
+    }
+    .features-div-cards-div{
+        margin-left:7rem;
+        display:flex;
+    }
     .features-div-cards-container{
         display:flex;
         margin:1rem;
@@ -22,9 +29,16 @@ const FeaturesDiv = styled.div`
     .features-div-cards{
     }
     @media(max-width:1000px){
+        .features-div-cards-div{
+            margin-left:0;
+            display:block;
+        }
         .features-div-cards-container{
             display:block;
             margin-top:2rem;
+        }
+        .features-div-cards-container:nth-child(1){
+            margin-left:5rem;
         }
     }
 `;
