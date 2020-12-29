@@ -85,7 +85,6 @@ export const FooterDivData = styled.div`
         .aboutTitle{
             font-size:23px;
             font-weight:bold;
-            
         }
         .aboutProfile{
             margin-top:3rem;
@@ -105,16 +104,17 @@ export const FooterDivData = styled.div`
             margin-top:3rem;
         }
     }
+    .socialMedia{
+         margin-left:5rem;
+    }
     .socialMediaText{
         margin-top:1rem;
-        margin-left:5rem;
     }
     .socialMediaTextTitle {
         font-size:23px;
         font-weight:bold;
     }
     .socialMediaIconsImage{
-        margin-left:5rem;
         display:flex;
         margin-top:3rem;
     }
@@ -122,5 +122,47 @@ export const FooterDivData = styled.div`
         padding:0.6rem;
         width:3rem;
         height:3rem;
+    }
+    @media(max-width: 1000px){
+        .socialMediaIconsImage{
+            display:block;
+        }
+    }
+    @media(max-width: 800px){
+        .about{
+            margin-left:1rem;
+        }
+        .help{
+            margin-left:1rem;
+        }
+        .socialMedia{
+            margin-left:2rem;
+        }
+    }
+    @media(max-width: 750px){
+        display:block;
+        text-align:center;
+        align-items:center;
+        .dataWarehouseTitleInfo{
+            margin-left:10rem;
+        }
+        .about{
+            margin-top:3rem;
+            .aboutProfile{
+                margin-top:0px;
+            }
+        }
+        .help{
+            margin-left:3rem;
+            .helpSupport{
+                margin-top:3rem;
+            }
+            .helpSign{
+                margin-top:0;
+            }
+        }
+        .socialMedia{
+            margin-top:3rem;
+        }
     }
 `
