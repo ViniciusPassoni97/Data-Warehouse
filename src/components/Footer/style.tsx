@@ -165,4 +165,4 @@ export const FooterDivData = styled.div`
             margin-top:3rem;
         }
     }
-`
+`;
